@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class tuto..</title>
+    <style>
+        header li {
+            list-style: none;
+        }
+        a:link,a:visited{
+            text-decoration:none;
+            background-color: lightblue;
+            border: 1px solid green;
+            color: black;
+          display: block;
+          width: 300px;
+          text-align: center;
+          margin-bottom: 2px;
+        }
+        a:hover , a:active{
+            color: chartreuse;
+            background-color: black;
+           
+        }
+        header ol :nth-child(3){
+            font-size: larger;
+            font-family: fantasy;
+            color: cyan;
+        }
+         section div :nth-child(odd)
+        {
+            color: blueviolet;
+
+            background-color: chartreuse;
+        }
+
+        section div :nth-child(4):hover{
+color: brown;
+background-color: blue;
+        }
+
+        div, span {
+  background-color: blue;
+}
+
+    </style>
+</head>
+<body>
+    <h1>pseudo class slectors are just!.. awesome</h1>
+    <header>
+       <ol>
+        <li> <a href="http://127.0.0.1:5500/html%20tutorial.html">anikets first html practice page </a> </li>
+        <li> <a href="http://github.com">github</a></li>
+        <li> <a href="http://youtube.com" target="_blank" rel="noopener noreferrer">youtube </a></li>
+       </ol>
+    </header>
+    <section>
+        <div>division2</div>
+        <div>division3</div>
+        <div>division4</div>
+        <div>division5</div>
+        <div>division6</div>
+        <div>division7</div>
+        <div>division8</div>
+        <div>division9</div>
+        <div>division10</div>
+        <div>division11</div>
+        <div>division12</div>
+        <div>division13</div>
+        <div>division14</div>
+
+        <div>Hello</div>
+  <span>World!</span>
+    </section>
+</body>
+</html>
